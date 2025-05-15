@@ -24,11 +24,11 @@ body {
   gap: 0.5rem;
 }
 .logo-area img {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: auto;
 }
 .menu-icon img {
-  width: 28px;      /* お好みでサイズ調整 */
+  width: 38px;      /* お好みでサイズ調整 */
   height: auto;
   cursor: pointer;  /* クリックできそうな手のカーソルにする */
 }
