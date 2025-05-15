@@ -17,7 +17,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #fff;
 }
 .logo-area {
   display: flex;
@@ -28,17 +27,13 @@ body {
   width: 32px;
   height: 32px;
 }
-.menu-icon {
-  width: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.menu-icon img {
+  .menu-icon img {
+  width: 32px;      /* お好みでサイズ調整 */
+  height: auto;
+  cursor: pointer;  /* クリックできそうな手のカーソルにする */
 }
-.menu-icon span {
-  display: block;
-  height: 2px;
-  background-color: #f98c8c;
-  border-radius: 2px;
+
 }
 
 /* ヒーローセクション */
