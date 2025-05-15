@@ -1,4 +1,4 @@
-/* リセットと基本スタイル */
+/* リセットと基本設定 */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +8,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #f2f2f2;
   color: #333;
+  line-height: 1.6;
 }
 
 /* ヘッダー */
@@ -31,7 +32,7 @@ body {
   width: 24px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }
 .menu-icon span {
   display: block;
@@ -43,61 +44,73 @@ body {
 /* ヒーローセクション */
 .hero {
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
 }
 .hero h1 {
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
 }
 .hero p {
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ウミガメ画像とテキストの重ね */
+.hero-image-wrapper {
+  position: relative;
+  width: 100%;
 }
 .hero img {
   width: 100%;
   border-radius: 1rem;
-  position: relative;
+  display: block;
 }
 .overlay-text {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 1.5rem;
   font-style: italic;
-  pointer-events: none;
+  font-size: 1.6rem;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
 }
 
 /* NEWSセクション */
 .news {
   background-color: #fff;
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 1rem;
+  margin: 2rem 1rem;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 .news h2 {
   font-size: 1.1rem;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 .news-list {
   list-style: none;
 }
 .news-list li {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .date {
   font-size: 0.8rem;
-  color: gray;
+  color: #666;
 }
 .tag {
   font-size: 0.75rem;
   background-color: #ddd;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.6rem;
   border-radius: 999px;
   margin-left: 0.5rem;
+  display: inline-block;
 }
 .news-list p {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin-top: 0.3rem;
+  color: #444;
 }
