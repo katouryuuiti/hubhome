@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hub株式会社</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="logo-area">
+      <img src="logo.png" alt="hub株式会社ロゴ" />
+      <span>hub株式会社</span>
+    </div>
+    <div class="menu-icon">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- メインビジュアル -->
+    <section class="hero">
+      <h1>あなたの「なくてはならない」になる</h1>
+      <p>自分の軸は人それぞれ...（以下略）</p>
+      <img src="turtle.jpg" alt="海の中のウミガメ" />
+      <p class="overlay-text">to be your essential</p>
+    </section>
+
+    <!-- NEWSセクション -->
+    <section class="news">
+      <h2>NEWS</h2>
+      <ul class="news-list">
+        <li>
+          <span class="date">2025.2</span>
+          <span class="tag">新規事業所開設</span>
+          <p>2025年2月よりHUBライフケア千葉事業・・・</p>
+        </li>
+        <!-- 他のニュースも同様に追加 -->
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
