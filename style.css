@@ -29,7 +29,7 @@ body {
 }
 .menu-icon img {
   .menu-icon img {
-  width: 32px;      /* お好みでサイズ調整 */
+  width: 25px;      /* お好みでサイズ調整 */
   height: auto;
   cursor: pointer;  /* クリックできそうな手のカーソルにする */
 }
