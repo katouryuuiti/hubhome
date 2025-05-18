@@ -1,0 +1,15 @@
+.header{
+    display:flex;
+    background-color:aqua;
+    width:100%;
+}
+.header ul{
+    display:flex;
+    list-style:none;
+    width:100%;
+    justify-content:center;
+}
+
+.header li{
+    padding:10px;
+}
